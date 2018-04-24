@@ -17,22 +17,23 @@ namespace CPA.App
     {
         public void Run()
         {
-            RecreateDatabase();
+            //RecreateDatabase();
 
-            AddTenCustomers();
+            //AddTenCustomers();
             //var buys = AddNewBuy(10);
             //var buyswithcustomers = AddCustomerToBuy(buys);
 
-
-
+            var builder = new StringBuilder();
+            Console.WriteLine("hello");
+            Console.WriteLine(builder.Append('-', 10));
 
             //AddNewListOfBuys(buyswithcustomers);
             //var customer=GetCustomerWithBuys();
-            var customers = GetCustomerWithBuys();
+            //var customers = GetCustomerWithBuys();
 
 
-            Menus.StartMenu();
-            
+            //Menus.StartMenu();
+
 
 
             //AddNewBuy();
@@ -189,10 +190,10 @@ namespace CPA.App
         private bool GetTrueOrFalse()
         {
             var random = new Random();
-            int zeroOrOne = random.Next(0, 1);
+            int zeroOrOne = random.Next(0, 2);
             if (zeroOrOne == 0)
                 return true;
-            else
+            else  
                 return false;
         }
 

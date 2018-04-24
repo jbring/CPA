@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CPA.domain;
 
 namespace CPA.App
 {
     public class Menus
     {
-        public int StartMenu()
+        public void StartMenu(List<Customer> customers)
         {
             Console.WriteLine("Hello. Make a choise");
             Console.WriteLine("1. Dislay all customers");
@@ -22,3 +23,4 @@ namespace CPA.App
         }
     }
 }
+    
