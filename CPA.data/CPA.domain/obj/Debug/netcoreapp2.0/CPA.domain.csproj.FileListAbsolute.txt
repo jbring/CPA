@@ -17,3 +17,5 @@ C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
 C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
 C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
