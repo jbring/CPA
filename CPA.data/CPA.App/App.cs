@@ -13,9 +13,10 @@ namespace CPA.App
     {
         public void Run()
         {
-            RecreateDatabase();
+            //RecreateDatabase();
+           
 
-            AddTenCustomers();
+            //AddTenCustomers();
             var buys = AddNewBuy(10);
             var buyswithcustomers = AddCustomerToBuy(buys);
 
@@ -27,7 +28,7 @@ namespace CPA.App
             var customers = GetCustomerWithBuys();
             var a = 10;
 
-
+            DisplayListOfCustomers(GetCustomerWithBuys());
             Console.WriteLine(customers[0].Buy.Count);
 
             //AddNewBuy();
@@ -244,6 +245,18 @@ namespace CPA.App
             var partPrice = (maxPrice - minPrice) / 10;
             var result = (price - minPrice) / partPrice;
             return Math.Round(result, 0);
+        }
+
+        private void DisplayListOfCustomers(List<Customer> customer)
+        {
+            
+            Console.WriteLine($"{"CustomerId",-20}{"Name", -20}{"Numbers of buys"}");
+            foreach (var oneCustomer in customer)
+            {
+                Console.WriteLine($"{oneCustomer.Id,-20}{$"{oneCustomer.FirstName} {oneCustomer.LastName}",-20}{oneCustomer.Buy.Count}");
+            }
+           
+
         }
     }
 }
