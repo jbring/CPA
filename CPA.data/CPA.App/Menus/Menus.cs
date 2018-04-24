@@ -4,27 +4,21 @@ using System.Text;
 
 namespace CPA.App
 {
-    class Menus
+    public class Menus
     {
-
-        private void DisplayCustomerMenu()
+        public int StartMenu()
         {
-            while (true)
+            Console.WriteLine("Hello. Make a choise");
+            Console.WriteLine("1. Dislay all customers");
+            Console.WriteLine("2. Quit");
+            int action = Convert.ToInt32(Console.ReadLine());
+
+            if (action==1)
+                Display.DisplayAllBuysForOneCustomer(customers);
+            else if (action == 2)
             {
-                Console.WriteLine("1. Display a customers order history");
-                Console.WriteLine("2. Quit");
-
-                var choice = Console.ReadLine();
-                if (choice == "1")
-                {
-
-                }
-                else
-                    break;
-
+                //Quit
             }
-            
-
         }
     }
 }

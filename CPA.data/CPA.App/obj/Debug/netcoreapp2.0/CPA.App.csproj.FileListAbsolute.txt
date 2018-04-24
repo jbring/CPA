@@ -32,7 +32,5 @@ C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.pdb
 C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.dll
 C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.pdb
-C:\Project\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csprojResolveAssemblyReference.cache
-C:\Project\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csproj.CoreCompileInputs.cache
-C:\Project\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.AssemblyInfoInputs.cache
-C:\Project\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.AssemblyInfo.cs
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.pdb

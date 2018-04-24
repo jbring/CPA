@@ -26,10 +26,11 @@ namespace CPA.App
             //AddNewListOfBuys(buyswithcustomers);
             //var customer=GetCustomerWithBuys();
             var customers = GetCustomerWithBuys();
-            //var a = 10;
 
 
-            //Console.WriteLine(customers[0].Buy.Count);
+            Menus.StartMenu();
+            
+
 
             //AddNewBuy();
             //var customer = PickRandomCustomer();

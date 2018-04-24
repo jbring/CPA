@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using CPA.domain;
 
-namespace CPA.App.Display
+namespace CPA.App
 {
     public class Display
     {
