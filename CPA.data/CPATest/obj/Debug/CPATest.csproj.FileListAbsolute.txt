@@ -1,0 +1,2 @@
+C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPATest\obj\Debug\CPATest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPATest\obj\Debug\CPATest.csproj.CoreCompileInputs.cache
