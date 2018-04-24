@@ -30,3 +30,5 @@ C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csproj.CopyComplete
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.dll
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.pdb
+C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.dll
+C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.pdb

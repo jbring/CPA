@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using CPA.data;
 using CPA.domain;
 using Microsoft.EntityFrameworkCore;
@@ -16,19 +17,19 @@ namespace CPA.App
             RecreateDatabase();
 
             AddTenCustomers();
-            var buys = AddNewBuy(10);
-            var buyswithcustomers = AddCustomerToBuy(buys);
+            //var buys = AddNewBuy(10);
+            //var buyswithcustomers = AddCustomerToBuy(buys);
 
 
 
 
-            AddNewListOfBuys(buyswithcustomers);
-            var customer=GetCustomerWithBuys();
+            //AddNewListOfBuys(buyswithcustomers);
+            //var customer=GetCustomerWithBuys();
             var customers = GetCustomerWithBuys();
-            var a = 10;
+            //var a = 10;
 
 
-            Console.WriteLine(customers[0].Buy.Count);
+            //Console.WriteLine(customers[0].Buy.Count);
 
             //AddNewBuy();
             //var customer = PickRandomCustomer();
@@ -113,15 +114,30 @@ namespace CPA.App
 
         private Customer AddOneCustomers()
         {
+            Console.WriteLine("Please enter firstname");
+            var firstName = Console.ReadLine();
+            CheckInputOfNames(firstName);
+            Console.WriteLine("Please enter lastname");
+            var lastName = Console.ReadLine();
+            Console.WriteLine("Please enter E-Mail adress");
+            var eMail = Console.ReadLine();
+
             var customer = new Customer()
             {
-                FirstName = "Anna",
-                LastName = "Toresson",
-                Email = "AToresson@hotmail.com",
+                FirstName = firstName,
+                LastName = lastName,
+                Email = eMail,
             };
             return customer;
         }
 
+        public string CheckInputOfNames(string name)
+        {
+            var checkName = new Regex(@"^/[A-Za-z]+/g");
+            checkName.IsMatch()
+
+
+        }
         public List<Buy> AddNewBuy(int amountOfBuys)
         {
             List<Buy> listOfBuys = new List<Buy>();
@@ -232,9 +248,51 @@ namespace CPA.App
                 LastName = "Bring",
                 Email = "JBring@hotmail.com",
             };
+            var customer3 = new Customer()
+            {
+                FirstName = "Jon",
+                LastName = "Jönsson",
+                Email = "JJonson@hotmail.com",
+            };
+            var customer4 = new Customer()
+            {
+                FirstName = "Petra",
+                LastName = "Svensson",
+                Email = "PSvensson@hotmail.com",
+            };
+            var customer5 = new Customer()
+            {
+                FirstName = "Roland",
+                LastName = "Andersson",
+                Email = "RAndersson@hotmail.com",
+            };
+            var customer6 = new Customer()
+            {
+                FirstName = "Dennis",
+                LastName = "Randevall",
+                Email = "DennisR@hotmail.com",
+            };
+            var customer7 = new Customer()
+            {
+                FirstName = "Sofia",
+                LastName = "Svensson",
+                Email = "SS@hotmail.com",
+            };
+            var customer8 = new Customer()
+            {
+                FirstName = "Karl",
+                LastName = "Karlsson",
+                Email = "KKarlsson@hotmail.com",
+            };
+            var customer9 = new Customer()
+            {
+                FirstName = "Sara",
+                LastName = "Persson",
+                Email = "SaraP@hotmail.com",
+            };
             using (var context = new CPAcontext())
             {
-                context.Customers.AddRange(customer, customer1, customer2);
+                context.Customers.AddRange(customer, customer1, customer2, customer3, customer4, customer5, customer6, customer7, customer8, customer9);
                 context.SaveChanges();
             }
         }
