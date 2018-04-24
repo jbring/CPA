@@ -5,6 +5,7 @@ using System.Text;
 using CPA.data;
 using CPA.domain;
 using Microsoft.EntityFrameworkCore;
+using CPA.App.Display.Display;
 
 
 namespace CPA.App
@@ -27,8 +28,7 @@ namespace CPA.App
             var customers = GetCustomerWithBuys();
             var a = 10;
 
-
-            Console.WriteLine(customers[0].Buy.Count);
+            Display.Display.DisplayAllBuysForOneCustomer(customers,1);
 
             //AddNewBuy();
             //var customer = PickRandomCustomer();
