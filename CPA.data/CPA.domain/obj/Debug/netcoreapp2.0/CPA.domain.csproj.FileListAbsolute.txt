@@ -17,3 +17,10 @@ C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
 C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
 C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\GIT\CPA\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.deps.json
+C:\GIT\CPA\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\GIT\CPA\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csproj.CoreCompileInputs.cache
+C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfoInputs.cache
+C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfo.cs
+C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csprojResolveAssemblyReference.cache

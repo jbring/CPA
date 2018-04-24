@@ -10,4 +10,10 @@
     <ProjectReference Include="..\CPA.domain\CPA.domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Microsoft.DotNet.PlatformAbstractions">
+      <HintPath>..\..\..\..\..\Users\Administrator\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

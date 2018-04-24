@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using CPA.App;
 using CPA.data;
 using CPA.domain;
+using CPA.Data;
+using CPA.Domain;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -36,15 +39,15 @@ namespace CPA.App
             //Console.WriteLine(customer.FirstName);
         }
 
-        private List<Customer> GetCustomerWithBuys()
+        public List<Customer> GetCustomerWithBuys()
         {
             using (var context = new CPAcontext())
             {
                 var customer = context.Customers
                     .Include(b => b.Buy)
-                    .ThenInclude(what=> what.What)
+                    .ThenInclude(what => what.What)
                     .Include(b => b.Buy)
-                    .ThenInclude(when=>when.When)
+                    .ThenInclude(when => when.When)
                     .Include(b => b.Buy)
                     .ThenInclude(where => where.Where)
                     .Include(b => b.Buy)
@@ -89,7 +92,7 @@ namespace CPA.App
 
         private List<Buy> AddCustomerToBuy(List<Buy> buys)
         {
-            List<Buy> buysIncludingCustomer=new List<Buy>();
+            List<Buy> buysIncludingCustomer = new List<Buy>();
             foreach (var buy in buys)
             {
                 buy.CustomerId = PickRandomCustomer().Id;
@@ -105,7 +108,7 @@ namespace CPA.App
             {
                 var customers = context.Customers.ToList();
                 var random = new Random();
-                var rad = random.Next(1, customers.Count+1);
+                var rad = random.Next(1, customers.Count + 1);
 
                 var cust = context.Customers.First(n => n.Id == rad);
                 return cust;
@@ -134,7 +137,7 @@ namespace CPA.App
         public string CheckInputOfNames(string name)
         {
             var checkName = new Regex(@"^/[A-Za-z]+/g");
-            checkName.IsMatch()
+
 
 
         }
@@ -177,7 +180,7 @@ namespace CPA.App
         {
             var ran = new Random();
             var value = Enum.GetValues(typeof(Platform));
-            Platform randomPlatform = (Platform) value.GetValue(ran.Next(0, value.Length));
+            Platform randomPlatform = (Platform)value.GetValue(ran.Next(0, value.Length));
 
             return randomPlatform;
         }
@@ -196,7 +199,7 @@ namespace CPA.App
         {
             var ran = new Random();
             var value = Enum.GetValues(typeof(Impulse));
-            Impulse randomCategory = (Impulse) value.GetValue(ran.Next(0, value.Length));
+            Impulse randomCategory = (Impulse)value.GetValue(ran.Next(0, value.Length));
 
             return randomCategory;
         }
@@ -204,7 +207,7 @@ namespace CPA.App
         private DateTime GetRandomTime(DateTime start)
         {
             Random gen = new Random();
-            int range = (int) ((TimeSpan)(DateTime.Today - start)).TotalHours;
+            int range = (int)((TimeSpan)(DateTime.Today - start)).TotalHours;
             var a = gen.Next(0, range);
             return start.AddHours(a);
         }
@@ -214,7 +217,7 @@ namespace CPA.App
         {
             var ran = new Random();
             var value = Enum.GetValues(typeof(PriceRange));
-            PriceRange randomPriceRange = (PriceRange) value.GetValue(ran.Next(0, value.Length));
+            PriceRange randomPriceRange = (PriceRange)value.GetValue(ran.Next(0, value.Length));
 
             return randomPriceRange;
         }
@@ -223,7 +226,7 @@ namespace CPA.App
         {
             var ran = new Random();
             var value = Enum.GetValues(typeof(Category));
-            Category randomCategory = (Category) value.GetValue(ran.Next(0, value.Length));
+            Category randomCategory = (Category)value.GetValue(ran.Next(0, value.Length));
 
             return randomCategory;
         }
