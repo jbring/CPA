@@ -14,7 +14,7 @@ namespace CPA.App
     {
         public void Run()
         {
-            RecreateDatabase();
+           RecreateDatabase();
 
             AddTenCustomers();
             var purchases = AddNewPurchase(50);
@@ -32,17 +32,17 @@ namespace CPA.App
             Menus.OneCustomerPurchaseMenu(customers);
 
 
-
+            // TODO: Rensa
             //AddNewpurchase();
             //var customer = PickRandomCustomer();
             //Console.WriteLine(customer.FirstName);
         }
 
-        private List<Customer> GetCustomerWithPurchases()
+        private List<Customer> GetCustomerWithPurchases() // TODO: Borde kanske heta Customers
         {
             using (var context = new CPAcontext())
             {
-                var customer = context.Customers
+                var customer = context.Customers            // TODO: Svårtydlig funktion pga upprepning och oklara namn
                     .Include(b => b.Purchase)
                     .ThenInclude(what=> what.What)
                     .Include(b => b.Purchase)
@@ -133,7 +133,7 @@ namespace CPA.App
             return customer;
         }
 
-        public void CheckInputOfNames(string name)
+        public void CheckInputOfNames(string name) // TODO: Lägg validering i en egen class
         {
             var checkName = new Regex(@"^/[A-Za-z]+/g");
         }

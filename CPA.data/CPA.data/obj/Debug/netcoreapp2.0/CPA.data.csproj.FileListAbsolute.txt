@@ -58,3 +58,15 @@ C:\GIT\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.AssemblyInfo.c
 C:\GIT\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.csproj.CopyComplete
 C:\GIT\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.dll
 C:\GIT\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.pdb
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.data.deps.json
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.data.dll
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.data.pdb
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.csprojResolveAssemblyReference.cache
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.csproj.CoreCompileInputs.cache
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.AssemblyInfoInputs.cache
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.AssemblyInfo.cs
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.csproj.CopyComplete
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.dll
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.pdb

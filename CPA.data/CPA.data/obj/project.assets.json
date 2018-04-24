@@ -1651,7 +1651,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "R7jGstnV4WH7TPDdHMtYibnlIPSWD0B6+Qlo/JydDso4HwIKVFDay82zCHRjPUEKhAm40POJ85xM4W/V+mQCRw==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -3408,23 +3408,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\Mattias\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.data\\CPA.data.csproj",
+      "projectUniqueName": "C:\\Users\\Mattias\\Dropbox\\Academy\\CPA\\CPA.data\\CPA.data\\CPA.data.csproj",
       "projectName": "CPA.data",
-      "projectPath": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.data\\CPA.data.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.data\\obj\\",
+      "projectPath": "C:\\Users\\Mattias\\Dropbox\\Academy\\CPA\\CPA.data\\CPA.data\\CPA.data.csproj",
+      "packagesPath": "C:\\Users\\Mattias\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mattias\\Dropbox\\Academy\\CPA\\CPA.data\\CPA.data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mattias\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3432,14 +3432,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://packagesource": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj": {
-              "projectPath": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj"
+            "C:\\Users\\Mattias\\Dropbox\\Academy\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj": {
+              "projectPath": "C:\\Users\\Mattias\\Dropbox\\Academy\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj"
             }
           }
         }

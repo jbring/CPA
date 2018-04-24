@@ -7,7 +7,7 @@ namespace CPA.App
 {
     public class Display
     {
-        public static void DisplayAllBuysForOneCustomer(List<Customer> allCustomers, int customerId)
+        public static void DisplayAllBuysForOneCustomer(List<Customer> allCustomers, int customerId) // TODO: Sales istället för Buys?
         {
             var customer = allCustomers.Find(c => c.Id == customerId);
             string format = "{0,-15} {1,-23} {2,-10} {3,-12} {4,-12} {5,-12} {6,-12}";
@@ -20,7 +20,7 @@ namespace CPA.App
             Console.WriteLine();
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(format, "What", "When", "Where", "Impulse", "Bargin", "PriceRunner", "TestWinner");
+            Console.WriteLine(format, "What", "When", "Where", "Impulse", "Bargin", "PriceRunner", "TestWinner"); // TODO: Stavning Bargain
             var builder = new StringBuilder();
             Console.WriteLine(builder.Append('-',105));
             Console.ResetColor();
@@ -29,9 +29,10 @@ namespace CPA.App
             foreach (var buy in customer.Purchase)
             {
                 var barginBuy = buy.Why.IsBarginPurchase == false ? "No" : "Yes";
-                var priceRunner = buy.Why.IsFromPriceRunner == false ? "No" : "Yes";
+                var priceRunner = buy.Why.IsFromPriceRunner == false ? "No" : "Yes"; // TODO: Sale.Reason istället för buy.Why ?
                 var testWinner = buy.Why.IsFromPriceRunner == false ? "No" : "Yes";
 
+                // TODO: Samt .Item istället för .What, .Time istället för .When, .Location istället för .Where ?
                 Console.WriteLine(format, buy.What.Category, buy.When.DateTime, buy.Where.Platform, buy.Why.Impulse, barginBuy,priceRunner,testWinner);
             }
 
@@ -41,7 +42,7 @@ namespace CPA.App
         {
             var builder=new StringBuilder();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"{"CustomerId",-20}{"Name",-20}{"Number of purchases"}");
+            Console.WriteLine($"{"CustomerId",-20}{"Name",-20}{"Number of purchases"}"); // TODO: Formatering
             Console.WriteLine(builder.Append('-',60));
             Console.ResetColor();
             foreach (var oneCustomer in customer)

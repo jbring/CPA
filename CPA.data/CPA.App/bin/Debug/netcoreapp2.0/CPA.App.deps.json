@@ -9,8 +9,7 @@
       "CPA.App/1.0.0": {
         "dependencies": {
           "CPA.data": "1.0.0",
-          "CPA.domain": "1.0.0",
-          "Microsoft.DotNet.PlatformAbstractions": "1.0.1.0"
+          "CPA.domain": "1.0.0"
         },
         "runtime": {
           "CPA.App.dll": {}
@@ -452,11 +451,6 @@
         "runtime": {
           "CPA.domain.dll": {}
         }
-      },
-      "Microsoft.DotNet.PlatformAbstractions/1.0.1.0": {
-        "runtime": {
-          "Microsoft.DotNet.PlatformAbstractions.dll": {}
-        }
       }
     }
   },
@@ -588,7 +582,7 @@
     "Remotion.Linq/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "sha512-R7jGstnV4WH7TPDdHMtYibnlIPSWD0B6+Qlo/JydDso4HwIKVFDay82zCHRjPUEKhAm40POJ85xM4W/V+mQCRw==",
       "path": "remotion.linq/2.1.1",
       "hashPath": "remotion.linq.2.1.1.nupkg.sha512"
     },
@@ -837,11 +831,6 @@
     },
     "CPA.domain/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.DotNet.PlatformAbstractions/1.0.1.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

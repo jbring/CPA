@@ -33,3 +33,12 @@ C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csprojReso
 C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csproj.CoreCompileInputs.cache
 C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfoInputs.cache
 C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfo.cs
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.deps.json
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csprojResolveAssemblyReference.cache
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csproj.CoreCompileInputs.cache
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfoInputs.cache
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfo.cs
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
+C:\Users\Mattias\Dropbox\Academy\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
