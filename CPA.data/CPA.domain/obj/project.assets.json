@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj",
+      "projectUniqueName": "C:\\Project\\CPA\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj",
       "projectName": "CPA.domain",
-      "projectPath": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj",
+      "projectPath": "C:\\Project\\CPA\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.domain\\obj\\",
+      "outputPath": "C:\\Project\\CPA\\CPA\\CPA.data\\CPA.domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -688,7 +688,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://packagesource": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

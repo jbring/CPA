@@ -116,7 +116,7 @@ namespace CPA.App
         {
             Console.WriteLine("Please enter firstname");
             var firstName = Console.ReadLine();
-            CheckInputOfNames(firstName);
+            //CheckInputOfNames(firstName);
             Console.WriteLine("Please enter lastname");
             var lastName = Console.ReadLine();
             Console.WriteLine("Please enter E-Mail adress");
@@ -131,13 +131,13 @@ namespace CPA.App
             return customer;
         }
 
-        public string CheckInputOfNames(string name)
-        {
-            var checkName = new Regex(@"^/[A-Za-z]+/g");
-            checkName.IsMatch()
+        //public string CheckInputOfNames(string name)
+        //{
+        //    var checkName = new Regex(@"^/[A-Za-z]+/g");
+        //   // checkName.IsMatch();
 
 
-        }
+        //}
         public List<Buy> AddNewBuy(int amountOfBuys)
         {
             List<Buy> listOfBuys = new List<Buy>();

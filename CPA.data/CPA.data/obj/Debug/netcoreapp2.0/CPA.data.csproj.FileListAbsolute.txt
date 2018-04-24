@@ -34,3 +34,15 @@ C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.d
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.csproj.CopyComplete
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.dll
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.pdb
+C:\Project\CPA\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.data.deps.json
+C:\Project\CPA\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.data.dll
+C:\Project\CPA\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.data.pdb
+C:\Project\CPA\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\Project\CPA\CPA\CPA.data\CPA.data\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\Project\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.csprojResolveAssemblyReference.cache
+C:\Project\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.csproj.CoreCompileInputs.cache
+C:\Project\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.AssemblyInfoInputs.cache
+C:\Project\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.AssemblyInfo.cs
+C:\Project\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.csproj.CopyComplete
+C:\Project\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.dll
+C:\Project\CPA\CPA\CPA.data\CPA.data\obj\Debug\netcoreapp2.0\CPA.data.pdb

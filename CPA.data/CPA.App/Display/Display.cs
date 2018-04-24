@@ -21,5 +21,19 @@ namespace CPA.App.Display
             }
         }
 
+
+        public static void DisplayAllCustomers(List<Customer> customer)
+        {
+            Console.WriteLine($"{"CustomerId", -20}{"Name",-20}{"Amount of buys"}");
+            foreach (var oneCustomer in customer)
+            {
+                Console.WriteLine($"{oneCustomer.Id,-20}" +
+                                  $"{oneCustomer.FirstName} {oneCustomer.LastName}" +
+                                  $"{"",-20}" +
+                                  $"{oneCustomer.Buy.Count}");
+            }
+
+        }
+
     }
 }
