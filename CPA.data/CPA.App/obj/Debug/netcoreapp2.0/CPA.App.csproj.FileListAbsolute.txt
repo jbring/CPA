@@ -38,3 +38,13 @@ C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.Ap
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csproj.CoreCompileInputs.cache
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.AssemblyInfoInputs.cache
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.AssemblyInfo.cs
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.deps.json
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.runtimeconfig.json
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.runtimeconfig.dev.json
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.data.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.data.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csproj.CopyComplete
