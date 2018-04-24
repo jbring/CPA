@@ -15,12 +15,12 @@ C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfo.cs
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
 C:\Users\Administrator\Source\Repos\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
-C:\Project\CPA\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.deps.json
-C:\Project\CPA\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.dll
-C:\Project\CPA\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.pdb
-C:\Project\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csprojResolveAssemblyReference.cache
-C:\Project\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csproj.CoreCompileInputs.cache
-C:\Project\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfoInputs.cache
-C:\Project\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfo.cs
-C:\Project\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
-C:\Project\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.deps.json
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csprojResolveAssemblyReference.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csproj.CoreCompileInputs.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfoInputs.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfo.cs
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
