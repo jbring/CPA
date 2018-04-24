@@ -4,7 +4,21 @@ using System.Text;
 
 namespace CPA.App
 {
-    class Menus
+    public class Menus
     {
+        public int StartMenu()
+        {
+            Console.WriteLine("Hello. Make a choise");
+            Console.WriteLine("1. Dislay all customers");
+            Console.WriteLine("2. Quit");
+            int action = Convert.ToInt32(Console.ReadLine());
+
+            if (action==1)
+                Display.DisplayAllBuysForOneCustomer(customers);
+            else if (action == 2)
+            {
+                //Quit
+            }
+        }
     }
 }
