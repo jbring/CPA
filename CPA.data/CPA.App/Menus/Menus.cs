@@ -6,5 +6,6 @@ namespace CPA.App
 {
     class Menus
     {
+
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 using CPA.data;
 using CPA.domain;
 using Microsoft.EntityFrameworkCore;
-using CPA.App.Display.Display;
+using static CPA.App.Display.Display;
 
 
 namespace CPA.App
