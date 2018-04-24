@@ -9,7 +9,7 @@ namespace CPA.data
     public class CPAcontext : DbContext
     {
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<Buy> Buy { get; set; }
+        public DbSet<Purchase> Purchase { get; set; }
         public DbSet<When> When { get; set; }
 
 

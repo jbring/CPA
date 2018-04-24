@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CPA.domain
 {
-    public class Buy
+    public class Purchase
     {
         public int Id { get; set; }
         public Customer Customer { get; set; }
@@ -16,7 +16,6 @@ namespace CPA.domain
         public Where Where { get; set; }
         public Why Why { get; set; }
 
-        ///hej hej
-        /// hej
+        
     }
 }

@@ -9,7 +9,8 @@
       "CPA.App/1.0.0": {
         "dependencies": {
           "CPA.data": "1.0.0",
-          "CPA.domain": "1.0.0"
+          "CPA.domain": "1.0.0",
+          "Microsoft.DotNet.PlatformAbstractions": "1.0.1.0"
         },
         "runtime": {
           "CPA.App.dll": {}
@@ -451,6 +452,11 @@
         "runtime": {
           "CPA.domain.dll": {}
         }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/1.0.1.0": {
+        "runtime": {
+          "Microsoft.DotNet.PlatformAbstractions.dll": {}
+        }
       }
     }
   },
@@ -831,6 +837,11 @@
     },
     "CPA.domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.DotNet.PlatformAbstractions/1.0.1.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

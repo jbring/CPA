@@ -12,9 +12,10 @@ using System;
 namespace CPA.data.Migrations
 {
     [DbContext(typeof(CPAcontext))]
-    partial class CPAcontextModelSnapshot : ModelSnapshot
+    [Migration("20180424131128_tuesday2")]
+    partial class tuesday2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

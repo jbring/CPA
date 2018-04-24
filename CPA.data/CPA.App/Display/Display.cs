@@ -26,9 +26,9 @@ namespace CPA.App
             Console.ResetColor();
             
 
-            foreach (var buy in customer.Buy)
+            foreach (var buy in customer.Purchase)
             {
-                var barginBuy = buy.Why.IsBarginBuy == false ? "No" : "Yes";
+                var barginBuy = buy.Why.IsBarginPurchase == false ? "No" : "Yes";
                 var priceRunner = buy.Why.IsFromPriceRunner == false ? "No" : "Yes";
                 var testWinner = buy.Why.IsFromPriceRunner == false ? "No" : "Yes";
 
@@ -46,7 +46,7 @@ namespace CPA.App
             Console.ResetColor();
             foreach (var oneCustomer in customer)
             {
-                Console.WriteLine($"{oneCustomer.Id,-20}{$"{oneCustomer.FirstName} {oneCustomer.LastName}",-20}{oneCustomer.Buy.Count}");
+                Console.WriteLine($"{oneCustomer.Id,-20}{$"{oneCustomer.FirstName} {oneCustomer.LastName}",-20}{oneCustomer.Purchase.Count}");
             }
 
         }

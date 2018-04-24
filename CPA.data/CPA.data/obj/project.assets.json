@@ -3408,23 +3408,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andreas\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CollectorAcademy\\CPA (VS)\\CPA\\CPA.data\\CPA.data\\CPA.data.csproj",
+      "projectUniqueName": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.data\\CPA.data.csproj",
       "projectName": "CPA.data",
-      "projectPath": "C:\\CollectorAcademy\\CPA (VS)\\CPA\\CPA.data\\CPA.data\\CPA.data.csproj",
-      "packagesPath": "C:\\Users\\Andreas\\.nuget\\packages\\",
-      "outputPath": "C:\\CollectorAcademy\\CPA (VS)\\CPA\\CPA.data\\CPA.data\\obj\\",
+      "projectPath": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.data\\CPA.data.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Andreas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3432,13 +3432,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://packagesource": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\CollectorAcademy\\CPA (VS)\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj": {
-              "projectPath": "C:\\CollectorAcademy\\CPA (VS)\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj"
+            "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj": {
+              "projectPath": "C:\\GIT\\CPA\\CPA\\CPA.data\\CPA.domain\\CPA.domain.csproj"
             }
           }
         }

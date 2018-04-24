@@ -48,3 +48,18 @@ C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.do
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.data.pdb
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.domain.pdb
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csproj.CopyComplete
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.deps.json
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.runtimeconfig.json
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.runtimeconfig.dev.json
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.dll
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.App.pdb
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.data.dll
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.data.pdb
+C:\GIT\CPA\CPA\CPA.data\CPA.App\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csprojResolveAssemblyReference.cache
+C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csproj.CoreCompileInputs.cache
+C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.AssemblyInfoInputs.cache
+C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.AssemblyInfo.cs
+C:\GIT\CPA\CPA\CPA.data\CPA.App\obj\Debug\netcoreapp2.0\CPA.App.csproj.CopyComplete

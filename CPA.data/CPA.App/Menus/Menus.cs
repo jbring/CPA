@@ -12,7 +12,7 @@ namespace CPA.App
             Console.WriteLine("Hello, make a choice");
             Console.WriteLine("1. Display all customers");
             Console.WriteLine("2. Quit");
-            int action = Convert.ToInt32(Console.ReadLine());
+            var action = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
 
             if (action == 1)
