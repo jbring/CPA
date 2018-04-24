@@ -40,24 +40,24 @@ C:\Project\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.AssemblyIn
 C:\Project\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.csproj.CopyComplete
 C:\Project\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.dll
 C:\Project\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.pdb
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.deps.json
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.runtimeconfig.json
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.runtimeconfig.dev.json
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.dll
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.pdb
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.App.dll
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.data.dll
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.domain.dll
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.App.pdb
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.data.pdb
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.domain.pdb
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.csprojResolveAssemblyReference.cache
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.csproj.CoreCompileInputs.cache
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.AssemblyInfoInputs.cache
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.AssemblyInfo.cs
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.csproj.CopyComplete
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.dll
-C:\GIT\CPA\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.deps.json
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.runtimeconfig.json
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.runtimeconfig.dev.json
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPAtest3.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.App.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.data.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.App.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.data.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.csprojResolveAssemblyReference.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.csproj.CoreCompileInputs.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.AssemblyInfoInputs.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.AssemblyInfo.cs
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.csproj.CopyComplete
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPAtest3\obj\Debug\netcoreapp2.0\CPAtest3.pdb
