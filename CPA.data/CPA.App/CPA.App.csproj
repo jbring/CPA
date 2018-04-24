@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CPA.data\CPA.data.csproj" />
+    <ProjectReference Include="..\CPA.domain\CPA.domain.csproj" />
+  </ItemGroup>
+
+</Project>
