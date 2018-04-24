@@ -19,3 +19,10 @@ C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
 C:\GIT\CPA\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.dll
 C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.deps.json
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.dll
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\bin\Debug\netcoreapp2.0\CPA.domain.pdb
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csprojResolveAssemblyReference.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.csproj.CoreCompileInputs.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfoInputs.cache
+C:\CollectorAcademy\CPA (VS)\CPA\CPA.data\CPA.domain\obj\Debug\netcoreapp2.0\CPA.domain.AssemblyInfo.cs

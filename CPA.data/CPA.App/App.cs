@@ -132,12 +132,9 @@ namespace CPA.App
             return customer;
         }
 
-        public string CheckInputOfNames(string name)
+        public void CheckInputOfNames(string name)
         {
             var checkName = new Regex(@"^/[A-Za-z]+/g");
-            checkName.IsMatch()
-
-
         }
         public List<Buy> AddNewBuy(int amountOfBuys)
         {

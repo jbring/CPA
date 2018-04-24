@@ -17,7 +17,7 @@ namespace CPA.App
 
             foreach (var buy in customer.Buy)
             {
-                Console.WriteLine(format, buy.What.Category, buy.When.DateTime, buy.Where.Platform, buy.Why.Impulse);
+                Console.WriteLine(format, buy.What.Category , buy.When.DateTime, buy.Where.Platform, buy.Why.Impulse);
             }
         }
 
