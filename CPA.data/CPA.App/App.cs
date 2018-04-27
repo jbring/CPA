@@ -26,10 +26,10 @@ namespace CPA.App
             //AddNewListOfBuys(buyswithcustomers);
             var customers = GetCustomerWithBuys();
             //var customers = GetCustomerWithBuys();
+            Menus.MenuToPickWhenCustomersMakeTheirPurchases(customers);
 
-
-            Menus.StartMenu(customers);
-            Menus.OneCustomerPurchaseMenu(customers);
+            //Menus.StartMenu(customers);
+            //Menus.OneCustomerPurchaseMenu(customers);
 
 
 
@@ -301,6 +301,27 @@ namespace CPA.App
             var partPrice = (maxPrice - minPrice) / 10;
             var result = (price - minPrice) / partPrice;
             return Math.Round(result, 0);
+        }
+
+        public static List<Customer> GetTop3CustomersWithinMounth(int answer)
+        {
+            DateTime DummyDate = new DateTime(2000, answer,1);
+            var a = DummyDate.Month;
+            var allPurchases=GetAllPurchases();
+
+            List<Customer> allCustomerWithPurchaseInSelectedMounth = new List<Customer>();
+            foreach (var purchase in allPurchases)
+            {
+                if (purchase.When.DateTime.Month==DummyDate.Month)
+                    allCustomerWithPurchaseInSelectedMounth.Add(purchase.Customer);
+            }
+            return allCustomerWithPurchaseInSelectedMounth;
+        }
+
+        public static List<Buy> GetAllPurchases()
+        {
+            using (var context = new CPAcontext())
+                return context.Buy.Include(c=>c.Customer).Include(w=>w.When).ToList();
         }
     }
 }

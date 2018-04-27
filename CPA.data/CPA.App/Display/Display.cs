@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using CPA.domain;
 
@@ -49,6 +50,19 @@ namespace CPA.App
                 Console.WriteLine($"{oneCustomer.Id,-20}{$"{oneCustomer.FirstName} {oneCustomer.LastName}",-20}{oneCustomer.Buy.Count}");
             }
 
+        }
+
+        public static void DisplayTop3CustomersWithinMounth(List<Customer> customers)
+        {
+            Console.Clear();
+            var top3 = customers.GroupBy(s => s)
+                .OrderByDescending(b => b.Count()).Take(3);
+
+            string format = "{1,-15}{1,-15}{1,-15}";
+            Console.WriteLine(format,"First Name", "Last Name", "Number of purchases");
+            Console.WriteLine("---------------------------------------------------------");
+            foreach (var customer in top3)
+                Console.WriteLine(format,customer.Key.FirstName,customer.Key.LastName,customer.Key.Buy.Count);
         }
     }
 }
