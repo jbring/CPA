@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
+using CPA.domain;
+
+
 
 namespace CPA.domain
 {
@@ -10,7 +14,7 @@ namespace CPA.domain
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public ICollection<Buy> Buy { get; set; }
+        public ICollection<Purchase> Purchase { get; set; }
 
     }
 

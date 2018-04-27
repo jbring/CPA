@@ -8,7 +8,7 @@ namespace CPA.domain
     {
         public int Id { get; set; }
         public bool IsFromPriceRunner { get; set; }
-        public bool IsBarginBuy { get; set; }
+        public bool IsBarginPurchase { get; set; }
         public bool IsTestWinner { get; set; }
         public Impulse Impulse { get; set; }
     }

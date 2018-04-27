@@ -14,58 +14,58 @@ namespace CPA.App
     {
         public void Run()
         {
-            //RecreateDatabase();
+           RecreateDatabase();
 
-            //AddTenCustomers();
-            //var buys = AddNewBuy(50);
-            //var buyswithcustomers = AddCustomerToBuy(buys);
-
-
-
-
-            //AddNewListOfBuys(buyswithcustomers);
-            var customers = GetCustomerWithBuys();
-            //var customers = GetCustomerWithBuys();
-            Menus.MenuToPickWhenCustomersMakeTheirPurchases(customers);
-
-            //Menus.StartMenu(customers);
-            //Menus.OneCustomerPurchaseMenu(customers);
+            AddTenCustomers();
+            var purchases = AddNewPurchase(50);
+            var purchasesWithCustomers = AddCustomerToPurchase(purchases);
 
 
 
-            //AddNewBuy();
+
+            AddNewListOfPurchases(purchasesWithCustomers);
+            var customers = GetCustomerWithPurchases();
+
+
+
+            Menus.StartMenu(customers);
+            Menus.OneCustomerPurchaseMenu(customers);
+
+
+            // TODO: Rensa
+            //AddNewpurchase();
             //var customer = PickRandomCustomer();
             //Console.WriteLine(customer.FirstName);
         }
 
-        private List<Customer> GetCustomerWithBuys()
+        private List<Customer> GetCustomerWithPurchases() // TODO: Borde kanske heta Customers
         {
             using (var context = new CPAcontext())
             {
-                var customer = context.Customers
-                    .Include(b => b.Buy)
+                var customer = context.Customers            // TODO: Svårtydlig funktion pga upprepning och oklara namn
+                    .Include(b => b.Purchase)
                     .ThenInclude(what=> what.What)
-                    .Include(b => b.Buy)
+                    .Include(b => b.Purchase)
                     .ThenInclude(when=>when.When)
-                    .Include(b => b.Buy)
+                    .Include(b => b.Purchase)
                     .ThenInclude(where => where.Where)
-                    .Include(b => b.Buy)
+                    .Include(b => b.Purchase)
                     .ThenInclude(why => why.Why)
                     .ToList();
                 return customer;
             }
         }
 
-        private List<Customer> AddBuyToCustomer(List<Buy> buys)
+        private List<Customer> AddPurchaseToCustomer(List<Purchase> purchases)
         {
-            List<Customer> customersWithBuys = new List<Customer>();
-            foreach (var buy in buys)
+            List<Customer> customersWithPurchases = new List<Customer>();
+            foreach (var purchase in purchases)
             {
                 var customer = PickRandomCustomer();
-                customer.Buy.Add(buy);
-                customersWithBuys.Add(customer);
+                customer.Purchase.Add(purchase);
+                customersWithPurchases.Add(customer);
             }
-            return customersWithBuys;
+            return customersWithPurchases;
         }
 
         private void RecreateDatabase()
@@ -77,27 +77,27 @@ namespace CPA.App
             }
         }
 
-        private void AddNewListOfBuys(List<Buy> listOfBuys)
+        private void AddNewListOfPurchases(List<Purchase> listOfPurchases)
         {
             using (var context = new CPAcontext())
             {
-                foreach (var buy in listOfBuys)
+                foreach (var purchase in listOfPurchases)
                 {
-                    context.Buy.Add(buy);
+                    context.Purchase.Add(purchase);
                 }
                 context.SaveChanges();
             }
         }
 
-        private List<Buy> AddCustomerToBuy(List<Buy> buys)
+        private List<Purchase> AddCustomerToPurchase(List<Purchase> purchases)
         {
-            List<Buy> buysIncludingCustomer=new List<Buy>();
-            foreach (var buy in buys)
+            List<Purchase> purchasesIncludingCustomer=new List<Purchase>();
+            foreach (var purchase in purchases)
             {
-                buy.CustomerId = PickRandomCustomer().Id;
-                buysIncludingCustomer.Add(buy);
+                purchase.CustomerId = PickRandomCustomer().Id;
+                purchasesIncludingCustomer.Add(purchase);
             }
-            return buysIncludingCustomer;
+            return purchasesIncludingCustomer;
         }
 
         private Customer PickRandomCustomer()
@@ -133,16 +133,16 @@ namespace CPA.App
             return customer;
         }
 
-        public void CheckInputOfNames(string name)
+        public void CheckInputOfNames(string name) // TODO: Lägg validering i en egen class
         {
             var checkName = new Regex(@"^/[A-Za-z]+/g");
         }
-        public List<Buy> AddNewBuy(int amountOfBuys)
+        public List<Purchase> AddNewPurchase(int amountOfPurchases)
         {
-            List<Buy> listOfBuys = new List<Buy>();
-            for (int i = 0; i < amountOfBuys; i++)
+            List<Purchase> listOfpurchases = new List<Purchase>();
+            for (int i = 0; i < amountOfPurchases; i++)
             {
-                var buy = new Buy
+                var purchase = new Purchase
                 {
                     What = new What()
                     {
@@ -156,7 +156,7 @@ namespace CPA.App
                     },
                     Why = new Why()
                     {
-                        IsBarginBuy = GetTrueOrFalse(),
+                        IsBarginPurchase = GetTrueOrFalse(),
                         IsTestWinner = GetTrueOrFalse(),
                         IsFromPriceRunner = GetTrueOrFalse(),
                         Impulse = GetImpulseAnswer()
@@ -166,9 +166,9 @@ namespace CPA.App
                         Platform = GetPlatform()
                     },
                 };
-                listOfBuys.Add(buy);
+                listOfpurchases.Add(purchase);
             }
-            return listOfBuys;
+            return listOfpurchases;
         }
 
 
@@ -217,6 +217,7 @@ namespace CPA.App
 
             return randomPriceRange;
         }
+        
 
         private Category GetRandomCategory()
         {
@@ -301,27 +302,6 @@ namespace CPA.App
             var partPrice = (maxPrice - minPrice) / 10;
             var result = (price - minPrice) / partPrice;
             return Math.Round(result, 0);
-        }
-
-        public static List<Customer> GetTop3CustomersWithinMounth(int answer)
-        {
-            DateTime DummyDate = new DateTime(2000, answer,1);
-            var a = DummyDate.Month;
-            var allPurchases=GetAllPurchases();
-
-            List<Customer> allCustomerWithPurchaseInSelectedMounth = new List<Customer>();
-            foreach (var purchase in allPurchases)
-            {
-                if (purchase.When.DateTime.Month==DummyDate.Month)
-                    allCustomerWithPurchaseInSelectedMounth.Add(purchase.Customer);
-            }
-            return allCustomerWithPurchaseInSelectedMounth;
-        }
-
-        public static List<Buy> GetAllPurchases()
-        {
-            using (var context = new CPAcontext())
-                return context.Buy.Include(c=>c.Customer).Include(w=>w.When).ToList();
         }
     }
 }
